@@ -24,8 +24,4 @@ jobs:
           # More details in https://github.com/snyk/actions#getting-your-snyk-token
           # or you can signup for free at https://snyk.io/login
           SNYK_TOKEN: 80c2b9ca-4e6c-4dbd-9e9f-95ed37f71278
-        with:
-          file: your-file-to-test.yaml
-      - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v1
-      
+       
